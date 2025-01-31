@@ -1,0 +1,108 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; /* Default color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar.scrolled {
+    background-color: #ccc; /* Light grey when scrolled */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo_img {
+    width: 50px;
+    height: auto;
+}
+
+.academy-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.prevailers {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+
+.academy {
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 2%; /* Pushes the links to the right */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px; /* Reduced size */
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+/* Mobile Hamburger Menu */
+.nav-links.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the links */
+    align-items: center;
+    position: absolute; /* Positions dropdown below navbar */
+    top: 60px; /* Adjust based on navbar height */
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}

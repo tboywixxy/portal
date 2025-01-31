@@ -1,0 +1,63 @@
+/* Hero Section */
+.hero {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Hero Image Styling */
+  .hero-slide {
+    position: relative;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out; /* Smooth transition effect */
+  }
+  
+  /* Text Overlay */
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-text h2 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+  }
+  
+  /* Navigation Buttons */
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    z-index: 10;
+    transition: background 0.3s ease;
+  }
+  
+  .swiper-button-prev {
+    left: 20px; /* Align to left */
+  }
+  
+  .swiper-button-next {
+    right: 20px; /* Align to right */
+  }
+  
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  

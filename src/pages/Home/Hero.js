@@ -3,9 +3,9 @@ import './Hero.css'; // Your CSS file
 
 const Hero = () => {
   const images = [
-    { src: '/Images/pic-1.jpg', alt: 'Image 1', heading: 'Empower Your Learning', description: 'With expert guidance and dedicated support.' },
-    { src: '/Images/pic-2.jpg', alt: 'Image 2', heading: 'Achieve Your Dreams', description: 'Take the next step towards your future today.' },
-    { src: '/Images/pic-3.jpg', alt: 'Image 3', heading: 'Transform Your Future', description: 'Unlock your potential with quality education.' },
+    { src: '/Images/pic-3.jpg', alt: 'Image 1', heading: 'Empower Your Learning', description: 'With expert guidance and dedicated support.' },
+    { src: '/Images/stu-2.jpg', alt: 'Image 2', heading: 'Achieve Your Dreams', description: 'Take the next step towards your future today.' },
+    { src: '/Images/stu-3.jpg', alt: 'Image 3', heading: 'Transform Your Future', description: 'Unlock your potential with quality education.' },
   ];
 
   // State to track the current slide
@@ -21,9 +21,9 @@ const Hero = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
 
-  // Auto slide every 3 seconds
+  // Auto slide every 10 seconds
   useEffect(() => {
-    const interval = setInterval(nextSlide, 10000); // 3 seconds
+    const interval = setInterval(nextSlide, 15000); // 10 seconds
     return () => clearInterval(interval); // Clean up interval on component unmount
   }, []);
 
@@ -35,6 +35,7 @@ const Hero = () => {
           backgroundImage: `url(${images[currentIndex].src})`,
         }}
       >
+        <div className="hero-overlay"></div>
         <div className="hero-text">
           <h2>{images[currentIndex].heading}</h2>
           <p>{images[currentIndex].description}</p>

@@ -16,7 +16,7 @@ function Footer() {
         <div>
           <h3>Useful Links</h3>
           <ul>
-           <li><Link to="/home">Home</Link></li>
+           <li><Link to="/">Home</Link></li>
                    <li><Link to="/about">About Us</Link></li>
                    <li><Link to="/enroll">Enroll now</Link></li>
                    <li><Link to="/tutor">Become a Tutor</Link></li>

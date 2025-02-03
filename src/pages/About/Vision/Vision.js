@@ -20,19 +20,24 @@ const Vision = () => {
             <p>Tutor</p>
           </div>
           <div className="team-card">
-            <img src="/Images/Iseg3.jpg" alt="Engr. Freedom Iseg" className="team-image" />
+            <img src="/Images/Iseg3.jpg" alt="Mr Freedom Iseg" className="team-image" />
             <h3>Engr. Freedom Iseg</h3>
             <p>Head of Content</p>
           </div>
           <div className="team-card">
-            <img src="/Images/Mm4.jpg" alt="Rita" className="team-image" />
-            <h3>Rita</h3>
+            <img src="/Images/Perpetual.png" alt="Miss Perpetual" className="team-image" />
+            <h3>Miss Perpetual</h3>
             <p>Tutor</p>
           </div>
           <div className="team-card">
-            <img src="/Images/Tboi5.jpg" alt="Engr. Anthony" className="team-image" />
+            <img src="/Images/Tboi.png" alt="Mr Anthony" className="team-image" />
             <h3>Engr. Anthony</h3>
             <p>Lead Developer</p>
+          </div>
+          <div className="team-card">
+            <img src="/Images/Regina.png" alt="Miss Regina" className="team-image" />
+            <h3>Miss Regina</h3>
+            <p>Tutor</p>
           </div>
         </div>
       </section>

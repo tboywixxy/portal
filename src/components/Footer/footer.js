@@ -11,7 +11,8 @@ function Footer() {
           <h3>Prevailers Academy</h3>
           <p>Abuja, Federal Capital Territory</p>
           <p>Phone: +234 0000 0000</p>
-          <p>Email: <a href="mailto:og@gmail.com">og@gmail.com</a></p>
+          <p>Whatsapp: 234 9114701938</p>
+          <p>Email: <a href="mailto:prevailersacademi@gmail.com">prevailersacademi@gmail.com</a></p>
         </div>
         <div>
           <h3>Useful Links</h3>
@@ -24,13 +25,14 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h3>Our Services</h3>
+          <h3>Educational Services We Provide</h3>
           <ul>
-            <li>Engineering & Constructions</li>
-            <li>Agriculture</li>
-            <li>Pharmaceutical</li>
-            <li>Oil & Gas</li>
-            <li>IT Solutions</li>
+            <li>Mathematics (Grade 1-8th grade)</li>
+            <li>Language</li>
+            <li>Web development</li>
+            <li>Digital skills</li>
+            <li>High school and college courses</li>
+            <li>Continuing Education Courses (adults)</li>
           </ul>
         </div>
         <div>
